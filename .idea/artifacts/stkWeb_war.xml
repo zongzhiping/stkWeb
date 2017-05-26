@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="stkWeb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="stkWeb.war">
+      <element id="artifact" artifact-name="stkWeb:war exploded" />
+    </root>
+  </artifact>
+</component>
