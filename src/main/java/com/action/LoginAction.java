@@ -42,16 +42,11 @@ public class LoginAction extends ActionSupport {
 
 	private LoginDAO dao;
 
-	/**
-	 * 
-	 * @return
-	 */
 	public String adminLogin() {
 		String result = "";
 		String sql = " from Admin where userName=? and password=?";
 		Object[] con = { username, password };
 		List list = dao.getHibernateTemplate().find(sql, con);
-		System.out.println("###################    " + list.size());
 		if (list.size() == 0) {// 没有用户
 
 			String sql2 = " from Stu where userNo=? and password=? ";

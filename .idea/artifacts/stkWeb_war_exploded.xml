@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" build-on-make="true" name="stkWeb:war exploded">
-    <output-path>$PROJECT_DIR$/target/stkWeb</output-path>
+    <output-path>G:/tomcat/apache-tomcat-7.0.53/webapps</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
